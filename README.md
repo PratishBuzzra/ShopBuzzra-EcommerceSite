@@ -11,18 +11,18 @@ ShopBuzzra is a full-stack e-commerce platform that enables users to browse prod
 
 ###  Features
 **Users**
--User registration & authentication
--Browse products with detailed views
--Search and filter products by category
--Add/remove products from cart
--Secure checkout with eSewa payment integration
+- User registration & authentication
+- Browse products with detailed views
+- Search and filter products by category
+- Add/remove products from cart
+- Secure checkout with eSewa payment integration
 
 
 **Admin**
--Product management (add, update, delete products)
--Role-based access control
--Upload and manage product images using Cloudinary with Multer
--Manage product listings efficiently
+- Product management (add, update, delete products)
+- Role-based access control
+- Upload and manage product images using Cloudinary with Multer
+- Manage product listings efficiently
 
 
 
