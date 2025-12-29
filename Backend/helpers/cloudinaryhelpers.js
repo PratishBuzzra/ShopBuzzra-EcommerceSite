@@ -1,0 +1,20 @@
+const cloudinary = require('../Config/cloudinary')
+
+const uploadToCloudinary = async(filepath)=>{
+    try {
+        const result = await cloudinary.uploader.upload(filepath, {
+              folder: 'ecommerce-products',
+        })
+        return{
+            url: result.secure_url,
+            publicId: result.public_id
+        }
+        
+    } catch (error) {
+        console.error('Error whille uploading to cloudinary',error);
+        throw new Error('Error while uploading to cloudinary')
+        
+    }
+}
+
+module.exports = uploadToCloudinary
